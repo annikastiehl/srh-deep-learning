@@ -20,11 +20,11 @@ Slides and lab notebooks for the course. Material for each day is added on that 
 **Day 1**
 - [TensorFlow Playground](https://playground.tensorflow.org) — watch a small network learn (XOR, hidden layers, learning rate)
 - [Teachable Machine](https://teachablemachine.withgoogle.com) — train an image or audio classifier with your webcam / microphone
-- [Why Momentum Really Works](https://distill.pub/2017/momentum/) (Distill) — gradient descent and the learning rate, interactive
 - [3Blue1Brown: Neural networks](https://www.3blue1brown.com/topics/neural-networks) — visual intuition for networks, gradient descent and backpropagation
 - [Seeing Theory](https://seeing-theory.brown.edu) — probability and regression, interactive
 
 **Later in the course**
+- [Why Momentum Really Works](https://distill.pub/2017/momentum/) (Distill) — gradient descent with momentum, interactive (day 3)
 - [CNN Explainer](https://poloclub.github.io/cnn-explainer/) — convolutions, feature maps, pooling (day 4)
 - [Transformer Explainer](https://poloclub.github.io/transformer-explainer/), [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/), [LLM Visualization](https://bbycroft.net/llm) — attention and transformers (outlook, day 6)
 - [GAN Lab](https://poloclub.github.io/ganlab/) — train a GAN on 2D data and watch it evolve (day 7)
