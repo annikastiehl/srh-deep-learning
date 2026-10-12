@@ -2,6 +2,8 @@
 
 Slides and lab notebooks for the course. Material for each day is added on that day; solutions are released after the lab.
 
+**Lecturer:** Annika Stiehl, Hochschule Ansbach — [annika.stiehl@hs-ansbach.de](mailto:annika.stiehl@hs-ansbach.de)
+
 | Day | Topic | Slides | Lab |
 |---|---|---|---|
 | 1 | Foundations & linear networks | [PDF](slides/day1.pdf) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day1_linear_networks.ipynb) |
