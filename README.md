@@ -6,7 +6,11 @@ Slides and lab notebooks for the course. Material for each day is added on that 
 
 | Day | Topic | Slides | Lab |
 |---|---|---|---|
-| 1 | Foundations & linear networks | [PDF](slides/day1.pdf) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day1_linear_networks.ipynb) |
+| 1 | Foundations & linear networks | [PDF](slides/day1.pdf) | Lab 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day1_linear_networks.ipynb)<br>Lab 1b [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day1b_eeg_pipeline.ipynb) |
+
+## Group project
+
+[Project guidelines (PDF)](project/project_guidelines.pdf) — task, datasets, evaluation, deliverables, milestones and rules (incl. use of AI assistants). Poster session: **11 November 2026**.
 
 ## Working in Google Colab
 
