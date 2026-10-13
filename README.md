@@ -10,7 +10,7 @@ Slides and lab notebooks for the course. Material for each day is added on that 
 
 ## Group project
 
-[Project guidelines (PDF)](project/project_guidelines.pdf) — task, datasets, evaluation, deliverables, milestones and rules (incl. use of AI assistants). Poster session: **11 November 2026**.
+[Project guidelines (PDF)](project/project_guidelines.pdf) — task, datasets, evaluation, deliverables, milestones and rules (incl. use of AI assistants). Submission of short paper + code: **10 November 2026** · poster session (portrait format): **11 November 2026**.
 
 ## Working in Google Colab
 
