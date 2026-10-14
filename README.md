@@ -7,6 +7,7 @@ Slides and lab notebooks for the course. Material for each day is added on that 
 | Day | Topic | Slides | Lab | Solutions |
 |---|---|---|---|---|
 | 1 | Foundations & linear networks | [PDF](slides/day1.pdf) | Lab 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day1_linear_networks.ipynb)<br>Lab 1b [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day1b_eeg_pipeline.ipynb) | Lab 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/solutions/day1_linear_networks_solution.ipynb) |
+| 2 | MLPs & backpropagation | [PDF](slides/day2.pdf) | Code breaks [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day2_code_breaks.ipynb)<br>Lab 2 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day2_mlp_backprop.ipynb) | |
 
 ## Group project
 
@@ -26,6 +27,11 @@ Slides and lab notebooks for the course. Material for each day is added on that 
 - [Teachable Machine](https://teachablemachine.withgoogle.com) — train an image or audio classifier with your webcam / microphone
 - [3Blue1Brown: Neural networks](https://www.3blue1brown.com/topics/neural-networks) — visual intuition for networks, gradient descent and backpropagation
 - [Seeing Theory](https://seeing-theory.brown.edu) — probability and regression, interactive
+
+**Day 2**
+- [A Visual and Interactive Guide to the Basics of Neural Networks](https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/#train_your_dragon) (Jay Alammar) — "train your dragon": fit one neuron by hand
+- [Backprop Explainer](https://xnought.github.io/backprop-explainer/) — watch forward and backward passes while a small network learns
+- [3Blue1Brown: What is backpropagation really doing?](https://www.3blue1brown.com/lessons/backpropagation) — backpropagation visually, almost no formulas
 
 **Later in the course**
 - [Why Momentum Really Works](https://distill.pub/2017/momentum/) (Distill) — gradient descent with momentum, interactive (day 3)
