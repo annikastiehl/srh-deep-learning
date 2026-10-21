@@ -10,9 +10,9 @@ Slides and lab notebooks for the course. Material for each day is added on that 
 | 2 | MLPs & backpropagation | [PDF](slides/day2.pdf) | Code breaks [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day2_code_breaks.ipynb)<br>Lab 2 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day2_mlp_backprop.ipynb) | |
 | 3 | Training & evaluation | [PDF](slides/day3.pdf) (incl. Lab 3 task sheet) | Code breaks 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3a_training_knobs.ipynb)<br>Code breaks 2 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3b_generalisation.ipynb)<br>Code breaks 3 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3c_evaluation.ipynb)<br>Lab 3 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3_training_evaluation.ipynb) | |
 
-## Group project
+## Exam
 
-[Project guidelines (PDF)](project/project_guidelines.pdf) — task, datasets, evaluation, deliverables, milestones and rules (incl. use of AI assistants). Submission of short paper + code: **10 November 2026** · poster session (portrait format): **11 November 2026**.
+All details about the exam follow on day 4.
 
 ## Working in Google Colab
 
