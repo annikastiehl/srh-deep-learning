@@ -8,6 +8,7 @@ Slides and lab notebooks for the course. Material for each day is added on that 
 |---|---|---|---|---|
 | 1 | Foundations & linear networks | [PDF](slides/day1.pdf) | Lab 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day1_linear_networks.ipynb)<br>Lab 1b [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day1b_eeg_pipeline.ipynb) | Lab 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/solutions/day1_linear_networks_solution.ipynb) |
 | 2 | MLPs & backpropagation | [PDF](slides/day2.pdf) | Code breaks [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day2_code_breaks.ipynb)<br>Lab 2 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day2_mlp_backprop.ipynb) | |
+| 3 | Training & evaluation | [PDF](slides/day3.pdf) (incl. Lab 3 task sheet) | Code breaks 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3a_training_knobs.ipynb)<br>Code breaks 2 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3b_generalisation.ipynb)<br>Code breaks 3 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3c_evaluation.ipynb)<br>Lab 3 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3_training_evaluation.ipynb) | |
 
 ## Group project
 
@@ -33,8 +34,11 @@ Slides and lab notebooks for the course. Material for each day is added on that 
 - [Backprop Explainer](https://xnought.github.io/backprop-explainer/) — watch forward and backward passes while a small network learns
 - [3Blue1Brown: What is backpropagation really doing?](https://www.3blue1brown.com/lessons/backpropagation) — backpropagation visually, almost no formulas
 
+**Day 3**
+- [Why Momentum Really Works](https://distill.pub/2017/momentum/) (Distill) — play with step size and momentum, watch the path to the minimum
+- [TensorFlow Playground](https://playground.tensorflow.org) — learning rate too small / too large; overfitting with little data and L1 / L2 regularisation
+
 **Later in the course**
-- [Why Momentum Really Works](https://distill.pub/2017/momentum/) (Distill) — gradient descent with momentum, interactive (day 3)
 - [CNN Explainer](https://poloclub.github.io/cnn-explainer/) — convolutions, feature maps, pooling (day 4)
 - [Transformer Explainer](https://poloclub.github.io/transformer-explainer/), [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/), [LLM Visualization](https://bbycroft.net/llm) — attention and transformers (outlook, day 6)
 - [GAN Lab](https://poloclub.github.io/ganlab/) — train a GAN on 2D data and watch it evolve (day 7)
