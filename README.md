@@ -11,9 +11,13 @@ Slides and lab notebooks for the course. Material for each day is added on that 
 | 3 | Training & evaluation | [PDF](slides/day3.pdf) (incl. Lab 3 task sheet) | Code breaks 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3a_training_knobs.ipynb)<br>Code breaks 2 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3b_generalisation.ipynb)<br>Code breaks 3 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3c_evaluation.ipynb)<br>Lab 3 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day3_training_evaluation.ipynb) | Lab 3 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/solutions/day3_training_evaluation_solution.ipynb) |
 | 4 | CNNs + challenge kick-off | [PDF](slides/day4.pdf) (incl. Lab 4 task sheet) | Code breaks 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day4a_convolutions.ipynb)<br>Code breaks 2 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day4b_architectures.ipynb)<br>Lab 4 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day4_cnn.ipynb)<br>Challenge starter [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day4_challenge_starter.ipynb) | |
 
-## Exam
+## Exam: the challenge
 
-All details about the exam follow on day 4.
+Skin-lesion classification on DermaMNIST in teams of two or three - all details in the **[challenge handout (PDF)](challenge/handout.pdf)**.
+
+- Starter notebook: see day 4 in the table above
+- App template (Gradio): [`challenge/app_template.py`](challenge/app_template.py) + [`requirements_app.txt`](challenge/requirements_app.txt)
+- Report template (IEEE conference format, LaTeX, also works in Overleaf): [`challenge/report_template/`](challenge/report_template/)
 
 ## Working in Google Colab
 

@@ -1,0 +1,92 @@
+% Challenge report - Deep Learning (SRH). IEEE conference format, 2-4 pages incl. figures and tables
+% (references do not count). Compile: pdflatex report, bibtex report, pdflatex report, pdflatex report
+% - or upload the whole folder to Overleaf (New Project -> Upload Project).
+\documentclass[conference]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{url}
+
+\begin{document}
+
+\title{Your Title: What You Did on DermaMNIST}
+
+\author{\IEEEauthorblockN{First Author}
+\IEEEauthorblockA{SRH University\\ first.author@example.com}
+\and
+\IEEEauthorblockN{Second Author}
+\IEEEauthorblockA{SRH University\\ second.author@example.com}}
+
+\maketitle
+
+\begin{abstract}
+3--5 sentences: the task, your baseline, your improvements, your main result on the test set
+(balanced accuracy, mean $\pm$ std over seeds), and the one thing you learned.
+\end{abstract}
+
+\section{Introduction}
+Why is this task relevant? What is hard about it (7 classes, strong imbalance)?
+What did you try, and what is your main finding? (about 1/3 column)
+
+\section{Data}
+DermaMNIST~\cite{medmnistv2}: number of images per split, the 7 classes, the class counts (a small table or
+bar plot), example images. How did you preprocess the images (normalisation, augmentation)?
+
+\section{Methods}
+\subsection{Baseline (A)}
+The CNN of the starter notebook: layers, number of parameters, loss, optimiser, learning rate, epochs.
+
+\subsection{Improvements (B)}
+Describe every change and \emph{why} you made it. At least one must be motivated by a paper or another good
+source --- cite it~\cite{he2016resnet}.
+
+\subsection{Evaluation}
+Main metric: balanced accuracy. Also macro-F1 and the sensitivity per class. Models and settings were chosen
+on the validation set; every variant was trained with at least 3 seeds. Differences to the baseline:
+95\,\% bootstrap interval of the difference on the validation set.
+
+\section{Results}
+Table~\ref{tab:results} shows mean $\pm$ std over seeds. Change one thing at a time.
+
+\begin{table}[t]
+\caption{Balanced accuracy (mean $\pm$ std over 3 seeds)}
+\label{tab:results}
+\centering
+\begin{tabular}{lccc}
+\toprule
+variant & val & test & 95\,\% interval vs.\ A (val) \\
+\midrule
+A: baseline & 0.46 $\pm$ 0.02 & -- & -- \\
+B1: class weights & 0.53 $\pm$ 0.01 & -- & [0.02, 0.13] \\
+B2: \dots & & & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Add one key figure, e.g. the confusion matrix of your final model or the learning curves:
+% \begin{figure}[t]
+%   \centering
+%   \includegraphics[width=\columnwidth]{confusion_matrix.pdf}
+%   \caption{Confusion matrix of the final model on the test set.}
+%   \label{fig:cm}
+% \end{figure}
+
+\section{Discussion}
+What worked, what did not, and why? Which classes are still hard? What would you try next?
+Limitations (small images, one dataset, \dots).
+
+\section{Conclusion}
+2--3 sentences.
+
+\section*{AI use statement}
+Which AI tools did you use, and for what (e.g.\ ``ChatGPT to explain an error message'',
+``Copilot for plotting code'')? If none: ``No AI tools were used.''
+
+\section*{Contribution statement}
+Who did what (2--3 sentences), e.g.\ ``A.\ wrote the data pipeline and the augmentation experiments;
+B.\ implemented the class weights and the evaluation; both wrote the report and the poster.''
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
