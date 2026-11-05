@@ -20,6 +20,7 @@ Skin-lesion classification on DermaMNIST in teams of two or three - all details 
 - Starter notebook: see day 4 in the table above
 - App template (Gradio): [`challenge/app_template.py`](challenge/app_template.py) + [`requirements_app.txt`](challenge/requirements_app.txt)
 - Report template (IEEE conference format, LaTeX, also works in Overleaf): [`challenge/report_template/`](challenge/report_template/)
+- Example poster (A0 landscape, LaTeX tikzposter, also works in Overleaf): [PDF](challenge/example_poster/poster_seizure_diffusion.pdf) + source in [`challenge/example_poster/`](challenge/example_poster/) - an idea poster without results; yours shows your results
 
 ## Working in Google Colab
 
