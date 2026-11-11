@@ -13,6 +13,7 @@ Slides and lab notebooks for the course. Material for each day is added on that 
 | 5 | RNN, LSTM & GRU | [PDF](slides/day5.pdf) (incl. Lab 5 task sheet) | Code breaks 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day5a_rnn.ipynb)<br>Code breaks 2 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day5b_gates.ipynb)<br>Lab 5 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day5_rnn.ipynb) | Code breaks 1 (in class) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/solutions/day5a_rnn_in_class.ipynb)<br>Code breaks 2 (in class) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/solutions/day5b_gates_in_class.ipynb)<br>Lab 5 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/solutions/day5_rnn_solution.ipynb) |
 | 6 | Transformers & transfer learning | [PDF](slides/day6.pdf) (incl. Lab 6 task sheet) | Code breaks [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day6a_attention.ipynb)<br>Lab 6 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day6_yolo.ipynb) | |
 | 7 | Autoencoders & generative models (VAE, GAN, diffusion) | [PDF](slides/day7.pdf) | Code breaks 1 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day7a_autoencoders.ipynb)<br>Code breaks 2 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day7b_generative.ipynb) | |
+| 8 | Looking back, looking ahead: all model types, history in papers, new building blocks, GNNs, responsible & explainable AI + poster session | [PDF](slides/day8.pdf) | Final example: CNN + LSTM [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/annikastiehl/srh-deep-learning/blob/main/notebooks/day8_cnn_lstm.ipynb) | |
 
 ## Exam: the challenge
 
@@ -78,8 +79,16 @@ Skin-lesion classification on DermaMNIST in teams of two or three - all details 
 - [From Autoencoder to Beta-VAE](https://lilianweng.github.io/posts/2018-08-12-vae/) and [What are diffusion models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) (Lilian Weng) — the maths behind the deep-dive slides
 - [Understanding Deep Learning](https://udlbook.github.io/udlbook/) (Simon Prince), ch. 14-18 — free PDF with great figures on autoencoders, GANs, VAEs and diffusion
 
-**Later in the course**
-- [PAIR AI Explorables](https://pair.withgoogle.com/explorables/), [Neuronpedia](https://www.neuronpedia.org/) — generalisation, interpretability, model behaviour (day 8)
+**Day 8**
+- [Large language models explained briefly](https://www.3blue1brown.com/lessons/mini-llm) (3Blue1Brown, 8 min)
+- [Understanding Deep Learning](https://udlbook.github.io/udlbook/) (Simon Prince) — ch. 11 (ResNet), 12 (Transformers, ViT), 13 (GNNs); [Dive into Deep Learning](https://d2l.ai), ch. 8 (modern CNNs: AlexNet, VGG, ResNet ...)
+- [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/) (Distill, interactive) and [PyTorch Geometric: introduction by example](https://pytorch-geometric.readthedocs.io/en/latest/get_started/introduction.html)
+- [A Visual Guide to Mamba](https://www.maartengrootendorst.com/blog/mamba/) (Maarten Grootendorst)
+- [Segment Anything demo](https://aidemos.meta.com/segment-anything) (Meta) — click on a photo, get a mask
+- [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) — 200 million predicted protein shapes, look one up in 3-D
+- [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) — Grad-CAM heatmaps for your own CNN in a few lines
+- [PAIR AI Explorables](https://pair.withgoogle.com/explorables/), [Neuronpedia](https://www.neuronpedia.org/) — fairness, generalisation, interpretability, interactive
+- [EU AI Act Explorer](https://artificialintelligenceact.eu/) — the law, searchable
 - [Distill](https://distill.pub/) — visual essays on ML and interpretability
 
 **Beyond this course: LLMs**
